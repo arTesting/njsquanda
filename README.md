@@ -24,7 +24,7 @@ Welcome to the **Next.js OpenAI Job Interview Q&A Application** — an interacti
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/nextjs-openai-job-interview.git
+   git clone https://github.com/arTesting/njsquanda.git
    cd nextjs-openai-job-interview
 
 

@@ -1,0 +1,61 @@
+* {
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.5s ease;
+
+}
+body,
+html {
+  background-image: url(https://images.unsplash.com/photo-1620121684840-edffcfc4b878);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body > p {
+  color: #fff;
+}
+main {
+  background-color: #ffffff95;
+  width: 700px !important;
+  padding: 40px;
+  scroll-behavior: smooth;
+  visibility: visible;
+  border-radius: 24px;
+}
+.card {
+  border: 0 !important;
+  background: #11111180;
+}
+/* HTML: <div className="loader"></div> */
+.loader {
+  width: 45px;
+  aspect-ratio: 0.75;
+  --c: no-repeat linear-gradient(#000 0 0);
+  background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+  animation: l7 1s infinite linear alternate;
+}
+@keyframes l7 {
+  0% {
+    background-size: 20% 50%, 20% 50%, 20% 50%;
+  }
+  20% {
+    background-size: 20% 20%, 20% 50%, 20% 50%;
+  }
+  40% {
+    background-size: 20% 100%, 20% 20%, 20% 50%;
+  }
+  60% {
+    background-size: 20% 50%, 20% 100%, 20% 20%;
+  }
+  80% {
+    background-size: 20% 50%, 20% 50%, 20% 100%;
+  }
+  100% {
+    background-size: 20% 50%, 20% 50%, 20% 50%;
+  }
+}
